@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background:linear-gradient(#991cd1,#d4307a);
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    padding-top: 10%;
+    margin-left: 33%;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 10px ;
+    
+}
+input,button{
+    padding: 20px;
+}
+body{
+    background:radial-gradient(#a8c0ff,#554dde) ;
+}
+button{
+    margin-left:20px ;
+    position: absolute;
+    left: 170px;
+    top: 30%;
+    border: red,solid,5px;
+    
+}
+input{
+    width: 100px;
+    border: 5px,dashed,rgb(236, 13, 13);
+    position: absolute;
+    top: 20px;
+    left: 150px;
+   
+
+  
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#y{
+    color: rgb(29, 29, 29);
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+
+}
+#c{
+    position: absolute;
+    left: 130px;
+    top: 55%;
+    
+}
+#s{
+    position: absolute;
+    left: 150px;
+    top: 68%;
+
+}
