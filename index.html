@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <script src="game.js"></script>
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css" />
+  <script src="game.js" defer></script>
+  <title>Guess the Number</title>
 </head>
 <body>
-    
-    <h1 id="y">Guess the Number 1 to 10</h1>
-    <div>
-    <input type="number" id="n"  min="1" max="10" placeholder="enter">
+  <h1 id="y">Guess the Number 1 to 10</h1>
+  <div class="container">
+    <input type="number" id="n" min="1" max="10" placeholder="Enter" />
     <button onclick="ran()">Check</button>
-    <h1 id="c">Correct / Wrong</h1>
-    <h1 id="s">Your Score:10</h1>
-</div>
-
+    <h2 id="c">Correct / Wrong</h2>
+    <h2 id="s">Your Score: 10</h2>
+  </div>
 </body>
 </html>
